@@ -1,0 +1,78 @@
+research_task:
+  description: >
+    Conduct thorough research on solutions for {use_case} in the {industry}.
+    Identify at least 6 potential options that could fulfill the requirements.
+    For each option, gather information on features, target audience, and general pricing structure.
+  expected_output: >
+    A list of at least 6 potential solutions, each with a brief description, key features,
+    target audience, and general pricing information.
+
+comparison_task:
+  description: >
+    Analyze the options identified in the research task. Compare their pricing structures
+    in detail and estimate the potential return on investment (ROI) for each solution.
+    Consider factors such as implementation costs, ongoing expenses, and potential benefits.
+  expected_output: >
+    A detailed comparison table of the solutions, including pricing breakdowns and
+    estimated ROI calculations. Provide a brief analysis of the pros and cons for each option.
+
+requirements_clarification_task:
+  description: >
+    Based on the initial {use_case} and {industry} information, create a list of
+    follow-up questions to clarify the user's specific requirements. These questions
+    should help refine the understanding of the use case and any unique needs or constraints.
+  expected_output: >
+    A list of at least 10 insightful questions that would help clarify the user's
+    requirements and guide the final recommendation.
+
+recommendation_task:
+  description: >
+    Review all the gathered information, comparisons, and clarified requirements.
+    Provide a final recommendation on which product best solves the user's use case.
+    Include runner-up options and explain the reasoning behind the recommendations.
+  expected_output: >
+    A comprehensive recommendation report that includes:
+    1. The top recommended solution with a detailed justification
+    2. At least 2 runner-up options with explanations
+    3. A summary of how the recommended solution addresses the specific use case and requirements
+    4. Any potential limitations or considerations for implementation
+
+industry_expert_analysis_task:
+  description: >
+    Analyze the {use_case} in the context of {industry}, providing insights on industry-specific
+    challenges, trends, and best practices that should be considered when selecting a solution.
+  expected_output: >
+    A comprehensive analysis of industry-specific factors relevant to the {use_case},
+    including current trends, common challenges, and recommended best practices.
+
+technical_evaluation_task:
+  description: >
+    Evaluate the technical aspects of the top solutions identified for {use_case} in {industry},
+    focusing on architecture, scalability, and integration capabilities.
+  expected_output: >
+    A detailed technical assessment of each solution, highlighting strengths, potential
+    limitations, and considerations for scalability and integration within the existing infrastructure.
+
+user_experience_assessment_task:
+  description: >
+    Assess the user interface and overall user experience of the top solutions for {use_case} in {industry},
+    considering the needs of a {other_requirements} team.
+  expected_output: >
+    A comprehensive evaluation of each solution's user experience, including ease of use,
+    learning curve, and suitability for teams with varying technical expertise.
+
+cost_benefit_analysis_task:
+  description: >
+    Conduct a detailed cost-benefit analysis of the top solutions for {use_case} in {industry},
+    considering initial costs, ongoing expenses, and potential ROI over time.
+  expected_output: >
+    A thorough financial analysis of each solution, including upfront costs, recurring expenses,
+    potential savings, and projected ROI over short-term and long-term periods.
+
+implementation_strategy_task:
+  description: >
+    Develop implementation strategies for the recommended solution(s) addressing {use_case} in {industry},
+    considering the specific requirements of a {other_requirements} team.
+  expected_output: >
+    A comprehensive implementation plan outlining key steps, potential challenges, required resources,
+    and a timeline for successful adoption of the recommended solution(s).

@@ -1,0 +1,6 @@
+/.venv
+crew/.env
+crew/report*
+agentops.log
+crew/report.md
+/crew/src/crew/__pycache__

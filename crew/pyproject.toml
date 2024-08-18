@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crew"
+version = "0.1.0"
+description = "crew using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.41.1"} 
+streamlit = "^1.37.0"
+flask = "^2.0.1"
+flask-cors = "^3.0.10"
+agentops = "^0.1.1"
+
+[tool.poetry.scripts]
+crew = "crew.main:run"
+train = "crew.main:train"
+replay = "crew.main:replay"
+serve = "crew.main:app.run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
