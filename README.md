@@ -1,6 +1,6 @@
 # Tool Recommender
 
-Welcome to the Tool Recommender project, powered by [crewAI](https://crewai.com). This project leverages a multi-agent AI system to recommend tools for specific use cases across various industries. By utilizing the powerful and flexible framework provided by crewAI, we enable our AI agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Tool Recommender project, created with [crewAI](https://crewai.com). This project leverages a multi-agent AI system to recommend tools for specific use cases across various industries. By utilizing the powerful and flexible framework provided by crewAI, we enable our AI agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
