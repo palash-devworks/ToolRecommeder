@@ -5,6 +5,7 @@ Welcome to the Tool Recommender project, created with [crewAI](https://crewai.co
 ## Installation
 
 Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management.
+All commands to be executed within crew folder.
 
 1. Install Poetry if you haven't already:
 ```bash
