@@ -21,10 +21,10 @@ poetry install
 ## Configuration
 
 1. Add your keys
-    `OPENAI_API_KEY` to the `.env` file in the `crew` directory.
-    `OPENAI_ORGANIZATION_ID` to the `.env` file in the `crew` directory.
-    `SERPER_API_KEY` to the `.env` file in the `crew` directory.
-    `AGENTOPS_API_KEY` to the `.env` file in the `crew` directory. // remove agentops.init() references from main.py if not needed
+   - `OPENAI_API_KEY` to the `.env` file in the `crew` directory.
+   - `OPENAI_ORGANIZATION_ID` to the `.env` file in the `crew` directory.
+   - `SERPER_API_KEY` to the `.env` file in the `crew` directory.
+   - `AGENTOPS_API_KEY` to the `.env` file in the `crew` directory. // remove agentops.init() references from main.py if not needed
 
 2. Customize the project:
    - Modify `src/crew/config/agents.yaml` to define your agents
